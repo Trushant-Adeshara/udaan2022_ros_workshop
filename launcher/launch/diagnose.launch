@@ -1,0 +1,3 @@
+<launch>
+	<node name="talker" pkg="ros_basic_tutorials" type="chatter.py"/>
+</launch>
