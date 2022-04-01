@@ -1,3 +1,6 @@
 <launch>
 	<node name="talker" pkg="ros_basic_tutorials" type="chatter.py"/>
+	<node name="listener" pkg="ros_basic_tutorials" type="listener.py"/>
+	<node name="rqt_graph" pkg="rqt_graph" type="rqt_graph"/>
+	<node name="rqt_console" pkg="rqt_console" type="rqt_console"/>
 </launch>
