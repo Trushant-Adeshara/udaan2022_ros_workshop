@@ -11,7 +11,7 @@ def main():
 	# ROS Node initializer
 	rospy.init_node('talker', anonymous=True, log_level=rospy.DEBUG)
 
-	# ROS Publisher with chatter topic
+	# ROS Publisher to chatter topic
 	pub = rospy.Publisher('chatter', String, queue_size=10)
 
 	# Defining publishing rate of node
